@@ -1,0 +1,114 @@
+.container{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-around;
+    background-color:rgb(65, 50, 78);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px 5px 10px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 8px;
+
+}
+ul li:hover{
+    color: blue;
+}
+h1{
+    color: #fff;
+    cursor: grab;
+}
+.otu{
+    display: flex;
+    /* border: 3px solid red; */
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.nav1{
+    /* border: 3px solid red; */
+    margin-right: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav2{
+      /* border: 3px solid red; */
+      padding: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}   
+
+    
+
+.cat{
+      /* border: 3px solid blue;  */
+      margin-bottom: 10px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    
+}
+.dog{
+     /* border: 3px solid purple; */
+     padding: 10px;
+     display: flex;
+    
+   
+}
+.photo{
+    width: 550px;
+    height: 350px;
+}  
+.photo2, .photo3{
+    width: 180px;
+    height: 200px;
+    margin-right: 10px;
+}
+.b1{
+    border: none;
+    background-color:rgb(65, 50, 78);
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px 0;
+    
+}
+
+
+.b2{
+    border: none;
+    background-color:rgb(65, 50, 78); 
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px 0;
+}
+
+.b3{
+    border: none;
+    background-color:rgb(65, 50, 78); 
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px 0;
+}
+.b1:hover{
+    background-color: transparent;
+    color: blue;
+}
+.b2:hover{
+    background-color: transparent;
+    color: blue;
+}
+.b3:hover{
+    background-color: transparent;
+    color: blue;
+}
